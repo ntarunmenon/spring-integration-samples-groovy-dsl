@@ -1,0 +1,1 @@
+# spring-integration-samples-groovy-dsl
