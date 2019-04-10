@@ -40,7 +40,6 @@ class HelloworldApplication implements CommandLineRunner{
 	IntegrationFlow helloWorld() {
 		IntegrationFlows.from("inputChannel")
 			.handle(helloService,"sayHello")
-			.transform()
 			.channel("outputChannel")
 		.get()
 
